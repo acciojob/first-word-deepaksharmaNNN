@@ -1,5 +1,6 @@
 function firstWord(s) {
   // your code here
+	if(s.length == 0) return s;
 	if (!s.includes(' ')) {
         return s;
     }
